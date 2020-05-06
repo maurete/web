@@ -3,6 +3,12 @@ kind: pipeline
 name: default
 
 steps:
+  - name: submodule
+    image: alpine/git
+    commands:
+      - git submodule init
+      - git submodule update
+
   - name: build
     image: plugins/hugo
     settings:
