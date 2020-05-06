@@ -13,7 +13,7 @@ theme = "hugo-sustain-vitae"
 [params]
   avatar = "profile.png"
   author = "Mauro Torrez"
-  description = "Personal webpage"
+  description = "Mauro Torrez's personal website"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
@@ -21,9 +21,9 @@ theme = "hugo-sustain-vitae"
 
 [params.social]
   Github        = "maurete"
-  Email         = "email@example.com"
-  Twitter       = "eumau"
-  LinkedIn      = "mauro-torrez"
+  Email         = "inbox@mau.ro"
+#  Twitter       = "eumau"
+  LinkedIn      = "maurotorrez"
 #  Stackoverflow = "username"
 #  Medium        = "username"
   Telegram      = "maurete"
@@ -51,7 +51,7 @@ theme = "hugo-sustain-vitae"
   weight = 200
   url = "/projects/"
 [[menu.main]]
-  name = "resume"
+  name = "CV"
   identifier = "resume"
   weight = 300
-  url = "/vitae/"
+  url = "/cv/"
