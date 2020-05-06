@@ -1,0 +1,23 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.initiatives }}
+  <section class="thirteen columns">
+    <h1>{{ .name }}</h1>
+    {{ range .source }}
+    <article>
+      <header>
+        <h1>{{ .title }}</h1>
+        <span>
+          <address>{{ .place }}</address>
+          <time>{{ .date }}</time>
+        </span>
+      </header>
+      <p>
+        {{ with .type }}
+          {{ title . }}:
+        {{ end }}
+        {{ .description }}
+      </p>
+    </article>
+    {{ end }}
+  </section>
+{{ end }}

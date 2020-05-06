@@ -5,7 +5,7 @@ title = "Mauro Torrez"
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-sustain-vitae"
+theme = "mauro"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
@@ -28,7 +28,7 @@ theme = "hugo-sustain-vitae"
 #  Medium        = "username"
   Telegram      = "maurete"
 
-[params.vitae]
+[params.cv]
   website = "mau.ro"
   website_full = "https://mau.ro/"
   #tel = "+44 0000 000000"
@@ -40,18 +40,18 @@ theme = "hugo-sustain-vitae"
   country = "Argentina"
 
 ## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+# [[menu.main]]
+#   name = "projects"
+#   identifier = "projects"
+#   weight = 200
+#   url = "/projects/"
 [[menu.main]]
   name = "CV"
-  identifier = "resume"
+  identifier = "cv"
   weight = 300
   url = "/cv/"
