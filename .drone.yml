@@ -26,7 +26,7 @@ steps:
           from_secret: deploy_ssh_user
       settings:
         hosts:
-          - from_secret: deploy_host
+          - mau.ro
         source: public/
         target:
           from_secret: deploy_dir
