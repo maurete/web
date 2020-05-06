@@ -12,32 +12,32 @@ theme = "hugo-sustain-vitae"
 
 [params]
   avatar = "profile.png"
-  author = "Chris Turner"
-  description = "Describe your website"
+  author = "Mauro Torrez"
+  description = "Personal webpage"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
 
 [params.social]
-  Github        = "username"
+  Github        = "maurete"
   Email         = "email@example.com"
-  Twitter       = "username"
-  LinkedIn      = "username"
-  Stackoverflow = "username"
-  Medium        = "username"
-  Telegram      = "username"
+  Twitter       = "eumau"
+  LinkedIn      = "mauro-torrez"
+#  Stackoverflow = "username"
+#  Medium        = "username"
+  Telegram      = "maurete"
 
 [params.vitae]
-  website = "git.io/sustain"
-  website_full = "https://demo.nurlan.co/hugo-sustain/"
-  tel = "+44 0000 000000"
-  tel_full = "+440000000000"
-  google_maps = "https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL"
-  address = "44 Perth Street"
-  postcode = "EH3 5BL"
-  city = "Edinburgh"
-  country = "United Kingdom"
+  website = "mau.ro"
+  website_full = "https://mau.ro/"
+  #tel = "+44 0000 000000"
+  #tel_full = "+440000000000"
+  #google_maps = "https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL"
+  #address = "44 Perth Street"
+  #postcode = "EH3 5BL"
+  city = "Santa Fe"
+  country = "Argentina"
 
 ## Main Menu
 [[menu.main]]
@@ -54,4 +54,4 @@ theme = "hugo-sustain-vitae"
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/vitae/"
+  url = "/cv/"
