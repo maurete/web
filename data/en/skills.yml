@@ -1,11 +1,52 @@
-name: Programming Skills
-title: Software engineering & web development
-source:
-  - name: [C/C++, Objective-C]
-    stars: 5
+---
+name: Skills and Languages
+content:
+  - title: System administration
+    freeform:
+      Experience in most aspects of managing Linux-based network,
+      server and workstation environments; setup and deployment of
+      frontend and web servers, Java application servers, database,
+      mail, directory servers. Proficient in Bash and Python
+      scripting.
 
-  - name: [Java, Python, PHP, Git]
-    stars: 4
+  - title: Site reliability engineering
+    freeform:
+      Creating and managing infrastructure as code with Ansible, AWX,
+      Terraform and Vagrant; immutable infrastructure with Docker and
+      Packer; container orchestration with Kubernetes and Docker
+      Swarm; log collecting and aggregation with Graylog; metrics
+      collection and reporting with InfluxDB, Prometheus, Grafana.
 
-  - name: [HTML/CSS3, Javascript]
-    stars: 3
+  - title: DevOps and continuous delivery
+    freeform:
+      Work within dev teams designing automation pipelines for the
+      build, testing and delivery stages. Pipeline implementation with
+      GitLab, Drone, GitHub Actions, BitBucket and Jenkins. Skilled
+      communicator, supporting the transition to more agile Git
+      workflows. Implementation of auxilliary pipeline tools (plugins,
+      Docker images, etc). Deploy to various cloud infrastructure
+      including Amazon, Hetzner, Linode.
+
+  # - title: Technologies
+  #   ranked:
+  #     - name: [Spanish]
+  #       stars: 5
+  #     - name: [Java, Python, PHP, Git]
+  #       stars: 4
+  #     - name: [HTML/CSS3, Javascript]
+  #       stars: 3
+
+  - title: Languages
+    languages:
+      - name: Spanish
+        proficiency: Native speaker
+      - name: English
+        proficiency: Advanced
+        certification: TOEFL
+      - name: French
+        proficiency: Advanced
+        certification: DELF B1
+      - name: Catalan
+        proficiency: Beginner
+      - name: German
+        proficiency: Beginner

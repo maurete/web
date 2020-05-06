@@ -1,9 +1,16 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.hobbies }}
-    <section class="thirteen columns">
+    <section class="thirteen columns hobbies">
       <h1>{{ .name }}</h1>
       <article>
-        <p>{{ delimit .source ", " }}</p>
+      <div class="twocol">
+	{{ range .items }}
+	<p class="hanging">
+	  <span class="hobby">{{ .name }}</span>{{with .desc}}:
+	  {{ . }}{{ end }}
+	</p>
+	{{ end }}
+      </div>
       </article>
     </section>
 {{ end }}

@@ -1,25 +1,41 @@
-<header class="three columns vitae-basic">
+<header class="three columns cv-basic">
   <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
   <h1>{{ .Site.Params.author }}</h1>
   <p>
-    <a href="tel:{{ .Site.Params.vitae.tel_full }}">{{ .Site.Params.vitae.tel }}</a>
+    {{ with .Site.Params.cv.tel_full }}
+    <a href="tel:{{ . }}">{{ .Site.Params.cv.tel }}</a>
+    {{ end }}
   </p>
   <address>
-    <a href="{{ .Site.Params.vitae.google_maps }}">
-      <div>{{ .Site.Params.vitae.address }}</div>
-      <div>{{ .Site.Params.vitae.postcode }}</div>
-      <div>{{ .Site.Params.vitae.city }}</div>
-      <div>{{ .Site.Params.vitae.country }}</div>
-    </a>
+    {{ with .Site.Params.cv.google_maps }}<a href="{{ . }}">{{ else }}<div>{{end}}
+      <div>{{ .Site.Params.cv.address }}</div>
+      <div>{{ .Site.Params.cv.postcode }}</div>
+      <div>{{ .Site.Params.cv.city }}</div>
+      <div>{{ .Site.Params.cv.country }}</div>
+    {{ with .Site.Params.cv.google_maps }}</a>{{ else }}</div>{{end}}
   </address>
   <p>
-    <a href="{{ .Site.Params.vitae.website_full }}">{{ .Site.Params.vitae.website }}</a><br/>
+    {{ if .Site.Params.cv.website }}
+    <a class="print-as-is" href="{{ with .Site.Params.cv.website_full }}{{.}}{{else}}#{{end}}">{{ .Site.Params.cv.website }}</a>
+    {{ end }}
   </p>
   <p>
-    <a href="mailto:{{ .Site.Params.social.email }}">{{ .Site.Params.social.email }}</a>
+    {{ with .Site.Params.social.email }}
+    <a class="print-as-is" href="mailto:{{ . }}">{{ . }}</a>
+    {{ end }}
   </p>
   <p>
-    <a href="http://github.com/{{ .Site.Params.social.github }}"><i class="fa fa-github"></i>&nbsp;Github</a> /
-    <a href="http://twitter.com/{{ .Site.Params.social.twitter }}"><i class="fa fa-twitter"></i>&nbsp;Twitter</a>
+    {{ with .Site.Params.social.github }}
+    <a class="print-as-is" href="http://github.com/{{.}}"><i class="fa fa-github"></i> /{{.}}</a>
+    <br />
+    {{ end }}
+    {{ with .Site.Params.social.linkedin }}
+    <a class="print-as-is" href="http://www.linkedin.com/in/{{.}}"><i class="fa fa-linkedin"></i> /{{.}}</a>
+    <br />
+    {{ end }}
+    {{ with .Site.Params.social.twitter }}
+    <a class="print-as-is" href="http://twitter.com/{{.}}"><i class="fa fa-twitter"></i> /{{.}}</a>
+    <br />
+    {{ end }}
   </p>
 </header>

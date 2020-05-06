@@ -16,17 +16,17 @@ languages:
   en:
     languageName: English
     weight: 1
-    contentDir: content/en
+    # contentDir: content/en
   es:
     languageName: Castellano
     description: Sitio web personal de Mauro Torrez
     weight: 2
-    contentDir: content/es
+    # contentDir: content/es
   fr:
     languageName: Français
     description: Site web personnel de Mauro Torrez
     weight: 3
-    contentDir: content/fr
+    # contentDir: content/fr
 
 params:
   avatar: profile.png

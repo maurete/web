@@ -1,7 +1,13 @@
 ---
 name: Hobbies
-source:
-  - Cooking
-  - Gardening
-  - Biking
-  - Running
+items:
+  - name: Language nerd
+    desc: passionate about learning languages.
+  - name: Cooking
+    desc: always trying to perfect some recipe.
+  - name: Gardening
+    desc: I appreciate plants as a lifeform.
+  - name: Biking
+    desc: my favorite means of transportation.
+  - name: Running
+    desc: great way for activating body and mind.

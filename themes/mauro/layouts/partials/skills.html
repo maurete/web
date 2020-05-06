@@ -2,16 +2,38 @@
 {{ with $data.skills }}
   <section class="thirteen columns">
     <h1>{{ .name }}</h1>
+    {{ range .content }}
     <article>
+      {{ with .title }}
       <header>
-        <h1>{{ .title }}</h1>
+        <h1>{{ . }}</h1>
       </header>
-      {{ range .source }}
+      {{ end }}
+      {{ with .freeform }}
+      <p>
+        {{ . }}
+      </p>
+      {{ end }}
+      {{ range .ranked }}
       <p>
         {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
           &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
       </p>
       {{ end }}
+      {{ with .languages }}
+      <div class=" twocol">
+      {{ range . }}
+      <p>
+	<span class="language">{{ .name }}</span>
+	<span class="proficiency">{{ .proficiency }}</span>
+	{{ with .certification }}
+	<span class="certification">{{ . }}</span>
+	{{ end }}
+      </p>
+      {{ end }}
+      </div>
+      {{ end }}
     </article>
+    {{ end }}
   </section>
 {{ end }}

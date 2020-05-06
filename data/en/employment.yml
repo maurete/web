@@ -1,24 +1,44 @@
 ---
 name: Employment
 source:
-  
-  - prof: Systems Administrator
+
+  - prof: System administrator
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
-    time: 2012 to present
-    description: 
+    time: 2012-present
+    description:
+      Part of the core IT team managing the local network with 500
+      users. Administration of on-premises web services for the whole
+      university campus serving 20k students, staff, and the general
+      public.  Set up many network services from LDAP directory, mail
+      server to the web frontends.  Lead the transition to writing
+      configuration as code. Currently implementing delivery pipelines
+      working hand in hand with dev teams.
 
   - prof: DevOps consultant
-    place: 4r Soluciones S.R.L, Santa Fe, Argentina
+    place: 4r Soluciones S.R.L., Santa Fe, Argentina
     time: 2019-2020
-    description: 
+    description:
+      My goal was designing and implementing a reliable delivery
+      process.  The solution included containerization of software to
+      achieve uniformity between environments.  Also did training of
+      the dev teams with the aim of generating a common git culture
+      and an ability to implement new pipelines and tweak existing
+      ones.
 
-  - prof: Programming Teacher
-    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+  - prof: PHP Programming Teacher
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
     time: 2014
     description:
+      Applied programming course using the Symfony PHP framework.
+      Subjects included version control systems, MVC paradigm,
+      routing, templating, controllers, and deployment of a PHP
+      application.
 
-  - prof: IT Support
+  - prof: IT support
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2008 to 2011
-    description: 
-  
+    description:
+      Here's where it all started! My work was dealing with end-user
+      problems in GNU/Linux and Windows workstations. Our biggest
+      challenge was migration of the whole bunch of Windows users to
+      GNU/Linux.

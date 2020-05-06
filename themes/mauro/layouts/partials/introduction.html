@@ -1,0 +1,16 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.introduction }}
+<section class="thirteen columns introduction">
+  {{ with .name }}<h1>{{.}}</h1>{{ end }}
+  <article>
+    {{ with .title }}
+    <header>
+      <h1>{{.}}</h1>
+    </header>
+    {{ end }}
+    {{ range .content }}
+    <p>{{.}}</p>
+    {{ end }}
+  </article>
+</section>
+{{ end }}
