@@ -1,0 +1,3 @@
+[submodule "themes/sustain-vitae"]
+	path = themes/hugo-sustain-vitae
+	url = https://github.com/maurete/hugo-sustain-vitae.git

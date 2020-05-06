@@ -1,0 +1,35 @@
+---
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: plugins/hugo
+    settings:
+      hugo_version: 0.69
+      validate: true
+      # pull: always
+      # url: https://foo.com
+      # config: path/to/config
+      # content: path/to/content/
+      # layout: path/to/layout
+      # output: path/to/public
+      # source: path/to/source
+      # theme: path/themes/THEMENAME/
+
+- name: deploy
+    image: drillster/drone-rsync
+    environment:
+      RSYNC_KEY:
+        from_secret: deploy_ssh_key
+      RSYNC_USER:
+        from_secret: deploy_ssh_user
+    settings:
+      hosts:
+        - from_secret: deploy_host
+      source: public/
+      target:
+        from_secret: deploy_dir
+    when:
+      branch:
+        - master
