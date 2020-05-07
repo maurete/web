@@ -8,6 +8,7 @@ steps:
     commands:
       - git submodule init
       - git submodule update
+      - git clean -dfx .
 
   - name: build
     image: plugins/hugo
@@ -36,6 +37,7 @@ steps:
       source: public/
       target:
         from_secret: deploy_dir
+      delete: true
     when:
       branch:
         - master
