@@ -30,7 +30,7 @@ source:
     time: 2014
     description:
       Applied programming course using the Symfony PHP framework.
-      Subjects included version control systems, MVC paradigm,
+      Subjects included version control systems, MVC pattern,
       routing, templating, controllers, and deployment of a PHP
       application.
 

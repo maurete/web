@@ -121,6 +121,15 @@ em {
     font-weight: 500;
 }
 
+.lang-nav .nav-item:not(:first-child) .nav-link {
+    padding-left: 5px;
+    /* border-left: 1px solid #0006; */
+}
+.lang-nav .nav-item:not(:last-child) .nav-link {
+    padding-right: 5px;
+    /* border-right: 1px solid #0006; */
+}
+
 .vitae-container span.language {
     font-weight: 500;
     padding-right: 0;

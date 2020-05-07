@@ -1,5 +1,5 @@
 <header class="three columns cv-basic">
-  <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
+  <img src="{{ .Sites.First.BaseURL }}img/{{ .Site.Params.avatar }}" class="me">
   <h1>{{ .Site.Params.author }}</h1>
   <p>
     {{ with .Site.Params.cv.tel_full }}

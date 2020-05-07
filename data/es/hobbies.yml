@@ -1,0 +1,13 @@
+---
+name: Hobbies
+items:
+  - name: Idiomas
+    desc: me apasiona aprender nuevos idiomas, actualmente estudiando alemán.
+  - name: Cocina
+    desc: siempre intentando perfeccionar alguna receta.
+  - name: Jardinería
+    desc: admiro las plantas como forma de vida.
+  - name: Bicicleta
+    desc: mi medio de transporte predilecto.
+  - name: Running
+    desc: buena manera de activar cuerpo y mente.

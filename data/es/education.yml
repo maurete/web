@@ -1,0 +1,10 @@
+name: Educación Formal
+source:
+  - title: Ingeniería en Informática
+    univ: Universidad Nacional del Litoral
+    place: Santa Fe, Argentina
+    date: 2020
+    type: Proyecto final (en curso)
+    description: Implementación de prácticas DevOps para el desarrollo
+                 de software
+    

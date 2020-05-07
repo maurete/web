@@ -1,0 +1,48 @@
+---
+name: Experiencia laboral
+source:
+
+  - prof: Administrador de sistemas
+    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+    time: 2012-actualidad
+    description:
+      "Parte del equipo de infraestructura de la red local de unos 500
+      usuarios. Administración de sistemas web para toda la
+      universidad: 20k alumnos, personal y público en
+      general. Instalación y mantenimiento de servicios tales como
+      directorio LDAP, servidor de coreo electrónico y servidores web
+      de frontend para toda la red. Impulsé la migración a
+      infraestructura como código, actualmente a cargo del diseño y la
+      implementación de pipelines de entrega continua trabajando en
+      conjunto con los equipos de desarrollo."
+
+  - prof: Consultoría DevOps
+    place: 4r Soluciones S.R.L., Santa Fe, Argentina
+    time: 2019-2020
+    description:
+      El objetivo de la consultoría fue agilizar la entrega del
+      software a los clientes mediante prácticas y herramientas
+      estandarizadas y confiables. La solución implementada abarcó la
+      dockerización del software para asegurar uniformidad entre los
+      entornos. También implicó la formación a los equipos de
+      desarrollo con el objetivo de generar un entendimiento común,
+      tanto del flujo de trabajo en git como del funcionamiento y
+      aplicación de las pipelines.
+
+  - prof: Curso de programación en PHP
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
+    time: 2014
+    description:
+      Dicté un curso de programación aplicada usando el framework PHP
+      Symfony.  El contenido abarcó sistemas de versionado, patrón
+      MVC, ruteo, plantillas, controladores y despliegue de
+      aplicaciones PHP.
+
+  - prof: Soporte técnico a usuarios de la red local
+    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+    time: 2008 to 2011
+    description:
+      Éste fue mi primer trabajo, consistente en resolver problemas de
+      los usuarios en entornos tanto GNU/Linux como Windows. Nuestro
+      mayor logro fue migrar la totalidad de las estaciones de trabajo
+      Windows a GNU/Linux.

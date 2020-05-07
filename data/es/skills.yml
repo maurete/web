@@ -1,0 +1,55 @@
+---
+name: Habilidades e idiomas
+content:
+  - title: Administración de sistemas
+    freeform:
+      "Experiencia en la gestión de entornos GNU/Linux: servidores,
+      redes y estaciones de trabajo; instalación y mantenimiento de
+      servidores web y proxy reverso, servidores de aplicación Java,
+      bases de datos, servicios de mail y de directorio
+      LDAP. Scripting en Bash y Python."
+
+  - title: Ingeniería de fiabilidad
+    freeform:
+      Creación y mantenimiento de infraestructura como código usando
+      Ansible/AWX, Terraform, Vagrant; generación de infraestructura
+      inmutable con Docker y Packer; recolección y agregado de logs
+      con Graylog; recolección y reporte de métricas con InfluxDB,
+      Prometheus, Grafana y Zabbix.
+      # orquestación con Kubernetes y Docker Swarm;
+
+  - title: DevOps y entrega continua
+    freeform:
+      Trabajo en conjunto con equipos de desarrollo en el diseño de
+      pipelines para la compilación, testeo y entrega del
+      software. Implementación de pipelines con GitLab, Drone, GitHub
+      Actions, BitBucket y Jenkins.  Buen comunicador, dando soporte a
+      la transición hacia flujos de trabajo git más ágiles.
+      Implementación de herramientas accesorias a las pipelines
+      (plugins, imágenes Docker, etc).  Despliegue en infraestructuras
+      cloud diversas incluyendo Amazon, Hetzner y Linode.
+
+  # - title: Technologies
+  #   ranked:
+  #     - name: [Spanish]
+  #       stars: 5
+  #     - name: [Java, Python, PHP, Git]
+  #       stars: 4
+  #     - name: [HTML/CSS3, Javascript]
+  #       stars: 3
+
+  - title: Idiomas
+    languages:
+      - name: Español
+        proficiency: Hablante nativo
+      - name: Inglés
+        proficiency: Avanzado
+        certification: TOEFL
+      - name: Francés
+        proficiency: Avanzado
+        certification: DELF B1
+      - name: Catalán
+        proficiency: Principiante
+        certification: A2, Institut Ramon Llull
+      - name: Alemán
+        proficiency: Principiante

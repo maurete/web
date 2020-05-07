@@ -15,6 +15,15 @@
         <li><a href="{{ .URL }}">{{ .Name | upper }}</a></li>
         {{ end }}
       {{ end }}
+      {{ if .IsTranslated }}
+        <li class="nav-item"><ul class="nav navbar-nav lang-nav">
+          {{ $currLang := .Language.Lang }}
+          {{ range .AllTranslations }}
+          <li class="nav-item">
+            <a class="nav-link {{if eq .Language.Lang $currLang }}active{{ end }}" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+          {{ end }}
+        </ul></li>
+        {{ end }}
       </ul>
     </div>
   </div>

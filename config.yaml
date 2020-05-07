@@ -1,6 +1,6 @@
 ---
 baseurl: 'https://mau.ro/'
-languageCode: en-US
+# languageCode: en-US
 title: Mauro Torrez
 # Enable comments by entering your Disqus shortname
 disqusShortname: ''
@@ -11,22 +11,25 @@ theme: mauro
 permalinks:
   post: '/:year/:month/:day/:slug'
 
-defaultLanguage: en
+DefaultContentLanguage: en
 languages:
   en:
     languageName: English
     weight: 1
     # contentDir: content/en
+    baseurl: https://mau.ro/
   es:
-    languageName: Castellano
+    languageName: Español
     description: Sitio web personal de Mauro Torrez
     weight: 2
     # contentDir: content/es
+    baseurl: https://mau.ro/es/
   fr:
     languageName: Français
     description: Site web personnel de Mauro Torrez
     weight: 3
     # contentDir: content/fr
+    baseurl: https://mau.ro/fr/
 
 params:
   avatar: profile.png
@@ -44,7 +47,7 @@ params:
 #  Medium        = "username"
     Telegram: maurete
   cv:
-    website: mau.ro
+    website: https://mau.ro
     website_full: 'https://mau.ro/'
   #tel = "+44 0000 000000"
   #tel_full = "+440000000000"

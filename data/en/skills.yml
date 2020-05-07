@@ -13,9 +13,10 @@ content:
     freeform:
       Creating and managing infrastructure as code with Ansible, AWX,
       Terraform and Vagrant; immutable infrastructure with Docker and
-      Packer; container orchestration with Kubernetes and Docker
-      Swarm; log collecting and aggregation with Graylog; metrics
-      collection and reporting with InfluxDB, Prometheus, Grafana.
+      Packer; log collecting and aggregation with Graylog; metrics
+      collection and reporting with InfluxDB, Prometheus, Grafana and
+      Zabbix.
+      # container orchestration with Kubernetes and Docker Swarm;
 
   - title: DevOps and continuous delivery
     freeform:
@@ -48,5 +49,6 @@ content:
         certification: DELF B1
       - name: Catalan
         proficiency: Beginner
+        certification: A2, Institut Ramon Llull
       - name: German
         proficiency: Beginner
