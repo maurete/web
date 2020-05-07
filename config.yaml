@@ -16,20 +16,17 @@ languages:
   en:
     languageName: English
     weight: 1
-    # contentDir: content/en
-    baseurl: https://mau.ro/
+    # baseurl: https://mau.ro/
   es:
     languageName: Español
     description: Sitio web personal de Mauro Torrez
     weight: 2
-    # contentDir: content/es
-    baseurl: https://mau.ro/es/
+    # baseurl: https://mau.ro/es/
   fr:
     languageName: Français
     description: Site web personnel de Mauro Torrez
     weight: 3
-    # contentDir: content/fr
-    baseurl: https://mau.ro/fr/
+    # baseurl: https://mau.ro/fr/
 
 params:
   avatar: profile.png
