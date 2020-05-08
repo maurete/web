@@ -4,7 +4,7 @@ content:
   - title: System administration
     freeform:
       Experience in most aspects of managing Linux-based network,
-      server and workstation environments; setup and deployment of
+      server, and workstation environments; setup and deployment of
       frontend and web servers, Java application servers, database,
       mail, directory servers. Proficient in Bash and Python
       scripting.
@@ -21,12 +21,12 @@ content:
   - title: DevOps and continuous delivery
     freeform:
       Work within dev teams designing automation pipelines for the
-      build, testing and delivery stages. Pipeline implementation with
-      GitLab, Drone, GitHub Actions, BitBucket and Jenkins. Skilled
-      communicator, supporting the transition to more agile Git
-      workflows. Implementation of auxilliary pipeline tools (plugins,
-      Docker images, etc). Deploy to various cloud infrastructure
-      including Amazon, Hetzner, Linode.
+      build, testing, and delivery stages. Pipeline implementation
+      with GitLab, Drone, GitHub Actions, BitBucket, and
+      Jenkins. Skilled communicator, supporting the transition to more
+      agile Git workflows. Implementation of auxiliary pipeline tools
+      (plugins, Docker images, etc). Deploy to various cloud
+      infrastructure including Amazon, Hetzner, Linode.
 
   # - title: Technologies
   #   ranked:
