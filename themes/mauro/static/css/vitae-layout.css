@@ -108,8 +108,10 @@ em {
     /*margin-right: 6px;*/
 }
 
-.twocol {
-    column-count: 2;
+@media (min-width: 600px) {
+    .twocol {
+	column-count: 2;
+    }
 }
 
 .hanging {
