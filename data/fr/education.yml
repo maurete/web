@@ -1,9 +1,8 @@
-name: Formal Education
+name: Éducation
 source:
-  - title: IT Engineer
+  - title: Génie informatique
     univ: Universidad Nacional del Litoral
     place: Santa Fe, Argentina
     date: 2020
-    type: Thesis (Work in progress)
-    description: Implementation of DevOps practices in an IT
-                 organization
+    type: Thèse (Toujours en cours)
+    description: Mise en œuvre des pratiques DevOps dans une organisation TI

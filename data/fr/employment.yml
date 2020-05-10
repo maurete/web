@@ -1,0 +1,47 @@
+---
+name: Emploi
+source:
+
+  - prof: Administrateur système
+    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+    time: 2012-actuel
+    description:
+      Part de l'équipe TI en charge de la gestion du réseau local avec
+      environ 500 utilisateurs. Administration des services web
+      desservant les étudiants (environ 20 k) et le personnel de
+      l'ensemble du campus et le grand public. J'ai mis en œuvre
+      plusieurs services réseau tels que des répertoires LDAP, service
+      courriel et serveurs web front end. J'ai mené la transition vers
+      un modèle "infrastructure as code", aujourd'hui, je conçois des
+      "pipelines" en travaillant de concert avec les équipes de
+      développement.
+
+  - prof: Consultant DevOps
+    place: 4r Soluciones S.R.L., Santa Fe, Argentina
+    time: 2019-2020
+    description:
+      J'ai travaillé avec l'objectif d'achever un processus fiable
+      pour la livraison des logiciels. La solution conçue comprenait
+      l'utilisation des conteneurs pour achever d'uniformité entre les
+      environnements. J'ai aussi travaillé dans la formation des
+      équipes de développement dans le but de créer une culture en
+      commun pour l'utilisation de git et la capacité d'administrer et
+      mettre en œuvre des pipelines eux-mêmes.
+
+  - prof: Professeur de programmation PHP
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
+    time: 2014
+    description:
+      Cours de programmation appliquée utilisant le framework PHP
+      Symfony. Les sujets comprenaient les systèmes de contrôle de
+      versions, le motif MVC, routage, utilisation de modèles,
+      contrôleurs et déploiement d'une application web PHP.
+
+  - prof: Soutien TI
+    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+    time: 2008 to 2011
+    description:
+      Voici mon premier travail ! Il portait sur des problèmes
+      utilisateurs sur postes de travail GNU/Linux et Windows. Notre
+      plus grand défi a été la migration de tout le groupe
+      d'utilisateurs de Windows vers GNU/Linux.

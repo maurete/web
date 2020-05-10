@@ -1,0 +1,54 @@
+---
+name: Compétences et langues
+content:
+  - title: Administration système
+    freeform:
+      Expérience en plusieurs aspects de la gestion des environnements
+      Linux - réseaux, serveurs et postes de travail ; mis en œuvre de
+      serveurs web et front end, serveurs d'application Java, bases
+      données, courriel, répertoires. Compétence en codage des scripts
+      Bash et Python.
+
+  - title: Ingénierie de fiabilité
+    freeform:
+      Création et gestion de l'infrastructure comme code utilisant
+      Ansible, AWX,Terraform et Vagrant ; infrastructure immuable avec
+      Docker et Packer ; récolte et agrégation des journaux avec
+      Graylog ; récolte des métriques logicielles et rapports avec
+      InfluxDB, Prometheus, Grafana et Zabbix.
+      # container orchestration with Kubernetes and Docker Swarm;
+
+  - title: DevOps et livraison continue
+    freeform:
+      Travail en concert avec des équipes de développement dans la
+      création des pipelines pour la compilation, analyse et livraison
+      des logiciels. Déploiement des pipelines avec Gitlab, Drone,
+      GitHub Actions, BitBucket et Jenkins. Soutien dans la transition
+      vers des flux de travail git agiles. Mise en œuvre des outils
+      des pipelines tels que plugins, images Docker, etc. Déploiement
+      sur divers fournisseurs nuage comme Amazon, Hetzner, Linode.
+
+  # - title: Technologies
+  #   ranked:
+  #     - name: [Spanish]
+  #       stars: 5
+  #     - name: [Java, Python, PHP, Git]
+  #       stars: 4
+  #     - name: [HTML/CSS3, Javascript]
+  #       stars: 3
+
+  - title: Langues
+    languages:
+      - name: Espagnol
+        proficiency: Langue maternelle
+      - name: Anglais
+        proficiency: Avancé
+        certification: TOEFL
+      - name: French
+        proficiency: Avancé
+        certification: DELF B1
+      - name: Catalan
+        proficiency: Débutant
+        certification: A2, Institut Ramon Llull
+      - name: Allemand
+        proficiency: Débutant

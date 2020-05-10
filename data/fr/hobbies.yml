@@ -1,0 +1,13 @@
+---
+name: Hobbys
+items:
+  - name: Nerd des langes
+    desc: j'aime apprendre de nouveaux langues.
+  - name: Cuisine
+    desc: toujours en train de perfectionner une recette.
+  - name: Jardinage
+    desc: j'apprécie les plantes comme forme de vie.
+  - name: Cyclisme
+    desc: mon moyen de transport préféré.
+  - name: Running
+    desc: un excellent moyen d'activer le corps et l'esprit.
