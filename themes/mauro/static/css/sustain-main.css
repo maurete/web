@@ -2,11 +2,10 @@
 
 /* Main page with stikky-footer */
 html, body {
-  height: 100%;
-  background-color: #fff;
-  font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
-  /* The html and body elements cannot have any padding or margin. */
-  /* border-top: 3px solid #27A822; */
+    height: 100%;
+    font-size: 1rem;
+    background-color: #fff;
+    font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
@@ -29,71 +28,78 @@ html, body {
 .navbar-static-top {
   margin-bottom: 10px;
 }
-.navbar-default {
+
+nav.navbar .navbar-brand {
+  color: #6b6b6b;
+}
+nav.navbar .navbar-brand:hover, nav.navbar .navbar-brand:focus {
+  color: #6b6b6b;
+}
+nav.navbar .navbar-text {
+  color: #6b6b6b;
+}
+nav.navbar .navbar-nav > li > a {
+  color: #6b6b6b;
+}
+nav.navbar .navbar-nav > li > a:hover, nav.navbar .navbar-nav > li > a:focus {
+  color: #6b6b6b;
+}
+nav.navbar .navbar-nav > .active > a, nav.navbar .navbar-nav > .active > a:hover, nav.navbar .navbar-nav > .active > a:focus {
+  color: #6b6b6b;
   background-color: #ffffff;
+}
+nav.navbar .navbar-nav > .open > a, nav.navbar .navbar-nav > .open > a:hover, nav.navbar .navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+nav.navbar .navbar-toggle {
   border-color: #ffffff;
 }
-.navbar-default .navbar-brand {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-text {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6b6b6b;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b6b6b;
+nav.navbar .navbar-toggle:hover, nav.navbar .navbar-toggle:focus {
   background-color: #ffffff;
 }
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-toggle .icon-bar {
+nav.navbar .navbar-toggle .icon-bar {
   background-color: #6b6b6b;
 }
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
+nav.navbar .navbar-collapse,
+nav.navbar .navbar-form {
   border-color: #6b6b6b;
 }
-.navbar-default .navbar-link {
+nav.navbar .navbar-link {
   color: #6b6b6b;
 }
-.navbar-default .navbar-link:hover {
+nav.navbar .navbar-link:hover {
   color: #6b6b6b;
 }
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  nav.navbar .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  nav.navbar .navbar-nav .open .dropdown-menu > li > a:hover, nav.navbar .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #6b6b6b;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  nav.navbar .navbar-nav .open .dropdown-menu > .active > a, nav.navbar .navbar-nav .open .dropdown-menu > .active > a:hover, nav.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #6b6b6b;
     background-color: #ffffff;
   }
 }
 
+#about .container {
+  max-width: 800px;
+}
+
 /* Custom page CSS */
 .container {
   width: auto;
-  max-width: 800px;
+  max-width: 960px;
   text-align: center;
 }
+
+#about h1, #about h2, #about h3, #about h4, #about h5, #about h6 {
+margin-top: 1rem;
+margin-bottom: .5rem;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }

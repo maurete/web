@@ -1,30 +1,27 @@
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class="fa fa-home"></i></a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class="fa fa-home"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="navbarToggler">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       {{ if .Site.Menus.main }}
-        {{ range sort .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name | upper }}</a></li>
-        {{ end }}
+      {{ range sort .Site.Menus.main }}
+      <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name | upper }}</a></li>
       {{ end }}
-      {{ if .IsTranslated }}
-        <li class="nav-item"><ul class="nav navbar-nav lang-nav">
-          {{ $currLang := .Language.Lang }}
-          {{ range .AllTranslations }}
-          <li class="nav-item">
-            <a class="nav-link {{if eq .Language.Lang $currLang }}active{{ end }}" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
-          {{ end }}
-        </ul></li>
-        {{ end }}
-      </ul>
-    </div>
+      {{ end }}
+    </ul>
+    {{ if .IsTranslated }}
+    <ul class="navbar-nav my-2 my-lg-0">
+      {{ $currLang := .Language.Lang }}
+      {{ range .AllTranslations }}
+      <li class="nav-item">
+        <a class="nav-link {{if eq .Language.Lang $currLang }}active{{ end }}" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
   </div>
 </nav>
+</div>
