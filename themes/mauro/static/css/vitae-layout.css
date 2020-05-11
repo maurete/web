@@ -148,16 +148,48 @@ em {
 
 @media print {
     @page {
-        margin: 15mm;
+        margin: 20mm;
+    }
+
+    .vitae-container {
+	display: block;
+	width: 17cm;
+    }
+
+    .vitae-container .three.columns {
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: fixed;
+	width: 3.5cm;
+    }
+
+    .vitae-container .thirteen.columns.clearfix {
+	float: none;
+	display: block;
+	width: 13.5cm;
+	position: absolute;
+	margin: 0 0 0 3.5cm;
+	padding: 0;
+    }
+
+    .vitae-container .thirteen.columns {
+	float: none;
+	display: block;
+	width: 13.5cm;
+	margin: 0;
+	padding: 0;
     }
 
     a[href].print-as-is:after {
         content: "";
     }
 
+    a:not(.btn) { text-decoration: none; }
+
     body {
-        font-size: 12pt;
-        line-height: 16pt;
+        font-size: 9pt;
+        line-height: 11pt;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -179,14 +211,14 @@ em {
     }
 
     section > h1 {
-	font-size: 11pt;
+	/* font-size: 11pt; */
 	font-weight: 700;
 	margin-top: 0;
     }
 
     article > header > h1 {
 	font-weight: 600;
-	font-size: 14pt;
+	/* font-size: 14pt; */
 	line-height: 140%;
 	margin-bottom: 0;
     }
@@ -196,33 +228,19 @@ em {
 	position: absolute;
     }
 
-    .vitae-container > header {
-        font-size: 80%;
-        line-height: 160%;
-	float: none;
-	width: 4cm;
-	position: fixed;
-    }
-
-    .vitae-container > .thirteen {
-	float: none;
-	position: absolute;
-	margin-left: 4.5cm;
-    }
-
     article > header > span {
-        font-size: 12pt;
+        /* font-size: 12pt; */
 	font-weight: 500;
         line-height: 80%;
     }
 
-    article > p {
-        font-size: 11pt;
-    }
+    /* article > p { */
+    /*     font-size: 11pt; */
+    /* } */
 
-    .introduction article > p {
-        font-size: 12pt;
-    }
+    /* .introduction article > p { */
+    /*     font-size: 12pt; */
+    /* } */
 
     footer {
 	display: none;
