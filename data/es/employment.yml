@@ -6,15 +6,16 @@ source:
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-actualidad
     description:
-      "Parte del equipo de infraestructura de la red local de unos 500
-      usuarios. Administración de sistemas web para toda la
-      universidad: 20k alumnos, personal y público en
-      general. Instalación y mantenimiento de servicios tales como
-      directorio LDAP, servidor de coreo electrónico y servidores web
-      de frontend para toda la red. Impulsé la migración a
-      infraestructura como código, actualmente a cargo del diseño y la
-      implementación de pipelines de entrega continua trabajando en
-      conjunto con los equipos de desarrollo."
+      Parte del equipo de infraestructura administrando de sistemas
+      web para toda la universidad abarcando unos 40k alumnos,
+      personal y público en general. Administración de un entorno
+      virtual de unas 400 instancias. Instalación y mantenimiento de
+      servicios tales como directorio LDAP, servidor de coreo
+      electrónico y servidores web de frontend para toda la
+      red. Impulsé la migración a infraestructura como código,
+      actualmente a cargo del diseño y la implementación de pipelines
+      de entrega continua trabajando en conjunto con los equipos de
+      desarrollo.
 
   - prof: Consultoría DevOps
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
@@ -30,7 +31,8 @@ source:
       aplicación de las pipelines.
 
   - prof: Curso de programación en PHP
-    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe,
+           Argentina
     time: 2014
     description:
       Dicté un curso de programación aplicada usando el framework PHP

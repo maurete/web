@@ -6,15 +6,14 @@ source:
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-actuel
     description:
-      Part de l'équipe TI en charge de la gestion du réseau local avec
-      environ 500 utilisateurs. Administration des services web
-      desservant les étudiants (environ 20 k) et le personnel de
-      l'ensemble du campus et le grand public. J'ai mis en œuvre
-      plusieurs services réseau tels que des répertoires LDAP, service
-      courriel et serveurs web front end. J'ai mené la transition vers
-      un modèle "infrastructure as code", aujourd'hui, je conçois des
-      "pipelines" en travaillant de concert avec les équipes de
-      développement.
+      Part de l'équipe TI en charge des services web desservant
+      l'ensemble du campus avec 20k étudiants, le personnel et le
+      grand public. Administration d'un environnement virtuel avec 400
+      instances. J'ai mis en œuvre plusieurs services réseau tels que
+      des répertoires LDAP, service courriel et serveurs web front
+      end. J'ai mené la transition vers un modèle "infrastructure as
+      code", aujourd'hui, je conçois des "pipelines" en travaillant de
+      concert avec les équipes de développement.
 
   - prof: Consultant DevOps
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
@@ -29,7 +28,8 @@ source:
       mettre en œuvre des pipelines eux-mêmes.
 
   - prof: Professeur de programmation PHP
-    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe,
+           Argentina
     time: 2014
     description:
       Cours de programmation appliquée utilisant le framework PHP

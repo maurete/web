@@ -6,13 +6,13 @@ source:
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-present
     description:
-      Part of the core IT team managing the local network with 500
-      users. Administration of on-premises web services for the whole
-      university campus serving 20k students, staff, and the general
-      public. Set up many network services from LDAP directory, mail
-      server to the web frontends. I lead the transition to writing
-      configuration as code. Currently implementing delivery pipelines
-      working hand in hand with dev teams.
+      Part of the core IT team managing on-premises web services for
+      the whole university campus serving 20k students, staff, and the
+      general public. Administration of a virtual environment with 400
+      instances. I've set up many network services from LDAP
+      directory, mail server to the web frontends. Lead the transition
+      to writing configuration as code. Currently implementing
+      delivery pipelines working hand in hand with dev teams.
 
   - prof: DevOps consultant
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
@@ -26,7 +26,8 @@ source:
       ones.
 
   - prof: PHP Programming Teacher
-    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe, Argentina
+    place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe,
+           Argentina
     time: 2014
     description:
       Applied programming course using the Symfony PHP framework.
