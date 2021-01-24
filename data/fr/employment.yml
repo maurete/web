@@ -2,12 +2,27 @@
 name: Emploi
 source:
 
-  - prof: Administrateur système
+  - prof: Infrastructure nuage AWS et automatisation
+    place: Startup de jeux vidéo pour mobiles, États-Unis
+    time: 2020-actuel
+    description:
+      Je suis chargé de de l'architecture et l'entretien de
+      l'infrastructure en nuage AWS (Amazon) pour le backend d'un jeu
+      vidéo de rôle (encore en bêta). Le backend comprend plusieurs
+      services API en Python et Prolog, en environnements local,
+      testing, stage et production. Je dois assurer que ces services
+      soient fiables, et aussi je m'occupe des "pipelines" pour la
+      publication de ces services de backend. Toute l'infrastructure
+      est gérée comme code Terraform/Terragrunt, et on utilise Packer
+      pour la génération des images immuables (Docker et AMIs) en
+      forme automatisée.
+
+  - prof: Administrateur systèmes
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-actuel
     description:
       Part de l'équipe TI en charge des services web desservant
-      l'ensemble du campus avec 20k étudiants, le personnel et le
+      l'ensemble du campus avec 35k étudiants, le personnel et le
       grand public. Administration d'un environnement virtuel avec 400
       instances. J'ai mis en œuvre plusieurs services réseau tels que
       des répertoires LDAP, service courriel et serveurs web front
