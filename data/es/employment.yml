@@ -2,6 +2,20 @@
 name: Experiencia laboral
 source:
 
+  - prof: Infrastructura en la nube AWS y automatización
+    place: Startup de videojuegos móviles, Estados Unidos
+    time: 2020-actualidad
+    description:
+      Encargado de la arquitectura y mantenimiento de la
+      infraestructura en la nube AWS (Amazon) para el backend de un
+      videojuego de rol. El backend abarca servicios API escritos en
+      Python y Prolog en entornos local, test, stage y producción. Mi
+      misión es asegurar la fiabilidad de estos servicios y su
+      infraestructura. También estoy a cargo de la implementación de
+      pipelines para la construccción de imágenes inmutables (Docker,
+      AMIs) con Packer y para el despliegue de las mismas. Toda la
+      infraestructura es gestionada como código Terragrunt/Terraform.
+
   - prof: Administrador de sistemas
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-actualidad

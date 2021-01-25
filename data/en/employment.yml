@@ -2,6 +2,20 @@
 name: Employment
 source:
 
+  - prof: AWS cloud infrastructure and automation
+    place: Mobile game startup, USA
+    time: 2020-present
+    description:
+      I architect and manage the AWS (Amazon) cloud infrastructure for
+      the backend of a role-based game. The backend consists of
+      various API services written in Python and Prolog, in local,
+      test, staging and production environments. My mission is to
+      ensure the reliability of the backend and its infrastructure. I
+      also design and implement pipelines for building immutable
+      images (Docker, AMIs) using Packer, and for deploying these
+      images. All of the infrastructure is written and managed as
+      Terragrunt/Terraform code.
+
   - prof: System administrator
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
     time: 2012-present

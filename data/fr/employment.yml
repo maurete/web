@@ -8,14 +8,13 @@ source:
     description:
       Je suis chargé de de l'architecture et l'entretien de
       l'infrastructure en nuage AWS (Amazon) pour le backend d'un jeu
-      vidéo de rôle (encore en bêta). Le backend comprend plusieurs
-      services API en Python et Prolog, en environnements local,
-      testing, stage et production. Je dois assurer que ces services
-      soient fiables, et aussi je m'occupe des "pipelines" pour la
-      publication de ces services de backend. Toute l'infrastructure
-      est gérée comme code Terraform/Terragrunt, et on utilise Packer
-      pour la génération des images immuables (Docker et AMIs) en
-      forme automatisée.
+      vidéo de rôle. Le backend comprend plusieurs services API en
+      Python et Prolog, en environnements local, testing, stage et
+      production. Je dois assurer que ces services soient fiables, et
+      aussi je m'occupe des "pipelines" pour la construction des
+      images immuables (Docker et AMIs) avec Packer et pour son
+      déploiement. Toute l'infrastructure est gérée comme code
+      Terraform/Terragrunt.
 
   - prof: Administrateur systèmes
     place: Universidad Nacional del Litoral, Santa Fe, Argentina
