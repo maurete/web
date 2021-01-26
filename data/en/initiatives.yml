@@ -3,11 +3,7 @@ name: Initiatives
 source:
   - title: Student exchange
     place: Université du Québec À Montréal (UQÀM), Montréal, Québec, Canada
-    date: 2012
-    description: Scholarship awarded as part of the "Emerging Leaders in the Americas Program" (ELAP) from the Government of Canada.
-
-  # - title: Student Volunteer
-  #   place: British RedCross, Glasgow, UK
-  #   date: 2013
-  #   type: fundraiser
-  #   description: Lorem adipiscing ei eam, eros conceptam maiestatis ne sea.
+    date: 2011
+    description:
+      Scholarship awarded as part of the "Emerging Leaders in the
+      Americas Program" (ELAP) from the Government of Canada.
