@@ -3,16 +3,16 @@ name: Habilidades e idiomas
 content:
   - title: Administración de sistemas
     freeform:
-      "Experiencia en la gestión de entornos GNU/Linux: servidores,
-      redes y estaciones de trabajo; instalación y mantenimiento de
-      servidores web y proxy reverso, servidores de aplicación Java,
-      bases de datos, servicios de mail y de directorio
-      LDAP. Scripting en Bash y Python."
+      Gestión de entornos GNU/Linux en servidores, redes y estaciones
+      de trabajo; instalación y mantenimiento de servidores web y
+      proxy reverso, servidores de aplicación Java, bases de datos,
+      servicios de mail y de directorio LDAP. Scripting en Bash y
+      Python.
 
   - title: Ingeniería de fiabilidad
     freeform:
       Creación y mantenimiento de infraestructura como código usando
-      Ansible/AWX, Terraform, Vagrant; generación de infraestructura
+      Terraform/Terragrunt, Ansible, Vagrant; generación de imágenes
       inmutable con Docker y Packer; recolección y agregado de logs
       con Graylog; recolección y reporte de métricas con InfluxDB,
       Prometheus, Grafana y Zabbix.
@@ -27,7 +27,7 @@ content:
       la transición hacia flujos de trabajo git más ágiles.
       Implementación de herramientas accesorias a las pipelines
       (plugins, imágenes Docker, etc).  Despliegue en infraestructuras
-      cloud diversas incluyendo Amazon, Hetzner y Linode.
+      cloud diversas incluyendo Amazon, Linode, DigitalOcean, Hetzner.
 
   # - title: Technologies
   #   ranked:

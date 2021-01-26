@@ -12,10 +12,10 @@ content:
   - title: Ingénierie de fiabilité
     freeform:
       Création et gestion de l'infrastructure comme code utilisant
-      Ansible, AWX,Terraform et Vagrant ; infrastructure immuable avec
-      Docker et Packer ; récolte et agrégation des journaux avec
-      Graylog ; récolte des métriques logicielles et rapports avec
-      InfluxDB, Prometheus, Grafana et Zabbix.
+      Terraform/Terragrunt, Ansible, et Vagrant ; infrastructure
+      immuable avec Docker et Packer ; récolte et agrégation des
+      journaux avec Graylog ; récolte des métriques logicielles et
+      rapports avec InfluxDB, Prometheus, Grafana et Zabbix.
       # container orchestration with Kubernetes and Docker Swarm;
 
   - title: DevOps et livraison continue
@@ -26,7 +26,8 @@ content:
       GitHub Actions, BitBucket et Jenkins. Soutien dans la transition
       vers des flux de travail git agiles. Mise en œuvre des outils
       des pipelines tels que plugins, images Docker, etc. Déploiement
-      sur divers fournisseurs nuage comme Amazon, Hetzner, Linode.
+      sur divers fournisseurs nuage comme Amazon, DigitalOcean,
+      Linode, Hetzner.
 
   # - title: Technologies
   #   ranked:

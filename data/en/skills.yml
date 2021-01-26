@@ -3,19 +3,18 @@ name: Skills and Languages
 content:
   - title: System administration
     freeform:
-      Experience in most aspects of managing Linux-based network,
-      server, and workstation environments; setup and deployment of
-      frontend and web servers, Java application servers, database,
-      mail, directory servers. Proficient in Bash and Python
-      scripting.
+      Experience in managing Linux-based network, server, and
+      workstation environments; setup and deployment of frontend and
+      web servers, Java application servers, database, mail, directory
+      servers. Proficient in Bash and Python scripting.
 
   - title: Site reliability engineering
     freeform:
-      Creating and managing infrastructure as code with Ansible, AWX,
-      Terraform and Vagrant; immutable infrastructure with Docker and
-      Packer; log collecting and aggregation with Graylog; metrics
-      collection and reporting with InfluxDB, Prometheus, Grafana and
-      Zabbix.
+      Creating and managing infrastructure as code with
+      Terraform/Terragrunt, Ansible, and Vagrant; building immutable
+      images with Docker and Packer; log collecting and aggregation
+      with Graylog; metrics collection and reporting with InfluxDB,
+      Prometheus, Grafana and Zabbix.
       # container orchestration with Kubernetes and Docker Swarm;
 
   - title: DevOps and continuous delivery
@@ -26,7 +25,8 @@ content:
       Jenkins. Skilled communicator, supporting the transition to more
       agile Git workflows. Implementation of auxiliary pipeline tools
       (plugins, Docker images, etc). Deploy to various cloud
-      infrastructure including Amazon, Hetzner, Linode.
+      infrastructure including Amazon, Linode, DigitalOcean, and
+      Hetzner.
 
   # - title: Technologies
   #   ranked:
