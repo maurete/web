@@ -6,7 +6,7 @@ source:
     place: Startup de jeux vidéo pour mobiles, États-Unis
     time: 2020-actuel
     description:
-      Je suis chargé de de l'architecture et l'entretien de
+      Je suis chargé de l'architecture et l'entretien de
       l'infrastructure en nuage AWS (Amazon) pour le backend d'un jeu
       vidéo de rôle. Le backend comprend plusieurs services API en
       Python et Prolog, en environnements local, testing, stage et
