@@ -2,7 +2,7 @@
 name: Experiencia laboral
 source:
 
-  - prof: Infrastructura en la nube AWS y automatización
+  - prof: Infrastructura en la nube AWS / DevOps y automatización
     place: Startup de videojuegos móviles, Estados Unidos (remoto)
     time: 2020-actualidad
     description:
@@ -16,7 +16,7 @@ source:
       mismas. Toda la infraestructura es gestionada como código
       Terragrunt/Terraform.
 
-  - prof: Administrador de sistemas
+  - prof: Ingeniero DevOps / Administrador de sistemas
     place: Universidad Nacional del Litoral (Rectorado), Santa Fe,
            Argentina
     time: 2012-actualidad

@@ -2,7 +2,7 @@
 name: Emploi
 source:
 
-  - prof: Infrastructure nuage AWS et automatisation
+  - prof: Infrastructure nuage AWS / DevOps et automatisation
     place: Startup de jeux vidéo pour mobiles, États-Unis (à distance)
     time: 2020-actuel
     description:
@@ -15,7 +15,7 @@ source:
       (Docker et AMIs avec Packer) et pour son déploiement. Toute
       l'infrastructure est gérée comme code Terraform/Terragrunt.
 
-  - prof: Ingénieur DvOps / Administrateur systèmes
+  - prof: Ingénieur DevOps / Administrateur systèmes
     place: Universidad Nacional del Litoral (Rectorat), Santa Fe,
            Argentina
     time: 2012-actuel
