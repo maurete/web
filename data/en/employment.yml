@@ -2,42 +2,41 @@
 name: Employment
 source:
 
-  - prof: AWS cloud infrastructure and automation
+  - prof: AWS Cloud Infrastructure and DevOps/Release Automation
     place: Mobile game startup, USA (remote)
     time: 2020-present
     description:
-      I architect and manage the AWS (Amazon) cloud infrastructure for
-      the backend of a role-based game. The backend consists of
-      various API services written in Python and Prolog, in local,
-      test, staging and production environments. My mission is to
-      ensure the reliability of the backend and its infrastructure. I
-      also design and implement pipelines for building immutable
-      images (Docker, AMIs) using Packer, and for deploying these
-      images. All of the infrastructure is written and managed as
-      Terragrunt/Terraform code.
+      AWS (Amazon) cloud infrastructure architect for the backend of a
+      role-based game. The backend comprises API services written in
+      Python and Prolog, in local, test, staging and production
+      environments. My mission is to ensure the reliability of the
+      backend and its infrastructure. I also build pipelines for
+      creating immutable images (Docker, AMIs with Packer) and for
+      performing deploys. All of the infrastructure is written and
+      managed as Terragrunt/Terraform code.
 
-  - prof: System administrator
-    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+  - prof: DevOps Engineer / System Administrator
+    place: Universidad Nacional del Litoral (Rectorate), Santa Fe,
+           Argentina
     time: 2012-present
     description:
-      Part of the core IT team managing on-premises web services for
-      the whole university campus serving 35k students, staff, and the
-      general public. Administration of a virtual environment with 400
-      instances. I've set up many network services from LDAP
+      Part of the core infrastructure team managing services for the
+      whole campus serving 35k students, staff, and the general
+      public. Administration of a virtual environment with ~400
+      instances on-premises. Set up many network services from LDAP
       directory, mail server to the web frontends. Lead the transition
       to writing configuration as code. Currently implementing
-      delivery pipelines working hand in hand with dev teams.
+      delivery pipelines working together with dev teams.
 
-  - prof: DevOps consultant
+  - prof: DevOps Consultant
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
     time: 2019-2020
     description:
-      My goal was designing and implementing a reliable delivery
-      process. The solution included the containerization of software
-      to achieve uniformity between environments. I also did training
-      of the dev teams with the aim of generating a common git culture
-      and an ability to implement new pipelines and tweak existing
-      ones.
+      My goal was building a reliable delivery process. The solution
+      included the containerization of software to achieve uniformity
+      between environments. I also did training of the dev teams with
+      the aim of generating a common git culture and an ability to
+      implement new pipelines and tweak existing ones.
 
   - prof: PHP Programming Teacher
     place: Facultad de Ingeniería y Ciencias Hídricas - UNL, Santa Fe,

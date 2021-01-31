@@ -6,30 +6,30 @@ source:
     place: Startup de videojuegos móviles, Estados Unidos (remoto)
     time: 2020-actualidad
     description:
-      Encargado de la arquitectura y mantenimiento de la
-      infraestructura en la nube AWS (Amazon) para el backend de un
-      videojuego de rol. El backend abarca servicios API escritos en
-      Python y Prolog en entornos local, test, stage y producción. Mi
-      misión es asegurar la fiabilidad de estos servicios y su
-      infraestructura. También estoy a cargo de la implementación de
-      pipelines para la construccción de imágenes inmutables (Docker,
-      AMIs) con Packer y para el despliegue de las mismas. Toda la
-      infraestructura es gestionada como código Terragrunt/Terraform.
+      Arquitectura y mantenimiento de la infraestructura en la nube
+      AWS (Amazon) para el backend de un videojuego de rol. El backend
+      abarca servicios API escritos en Python y Prolog en entornos
+      local, test, stage y producción. Mi misión es asegurar la
+      fiabilidad de estos servicios y su infraestructura.
+      Implementación de pipelines para la construccción de imágenes
+      inmutables (Docker, AMIs con Packer) y para el despliegue de las
+      mismas. Toda la infraestructura es gestionada como código
+      Terragrunt/Terraform.
 
   - prof: Administrador de sistemas
-    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+    place: Universidad Nacional del Litoral (Rectorado), Santa Fe,
+           Argentina
     time: 2012-actualidad
     description:
-      Parte del equipo de infraestructura administrando de sistemas
-      web para toda la universidad abarcando unos 35k alumnos,
-      personal y público en general. Administración de un entorno
-      virtual de unas 400 instancias. Instalación y mantenimiento de
-      servicios tales como directorio LDAP, servidor de coreo
-      electrónico y servidores web de frontend para toda la
-      red. Impulsé la migración a infraestructura como código,
-      actualmente a cargo del diseño y la implementación de pipelines
-      de entrega continua trabajando en conjunto con los equipos de
-      desarrollo.
+      Parte del equipo de infraestructura. Administración de servicios
+      para toda la universidad abarcando unos 35k alumnos, personal y
+      público en general. Entorno virtual en premisas de unas 400
+      instancias. Instalación y mantenimiento de servicios tales como
+      directorio LDAP, servidor de coreo electrónico y servidores web
+      de frontend para toda la red. Impulsé la migración a
+      infraestructura como código, actualmente a cargo del diseño y la
+      implementación de pipelines de entrega continua trabajando en
+      conjunto con los equipos de desarrollo.
 
   - prof: Consultoría DevOps
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
@@ -50,9 +50,9 @@ source:
     time: 2014
     description:
       Dicté un curso de programación aplicada usando el framework PHP
-      Symfony.  El contenido abarcó sistemas de versionado, patrón
-      MVC, ruteo, plantillas, controladores y despliegue de
-      aplicaciones PHP.
+      Symfony. El contenido abarcó sistemas de versionado, patrón MVC,
+      ruteo, plantillas, controladores y despliegue de aplicaciones
+      PHP.
 
   - prof: Soporte técnico a usuarios de la red local
     place: Universidad Nacional del Litoral, Santa Fe, Argentina

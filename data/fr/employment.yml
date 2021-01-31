@@ -6,35 +6,36 @@ source:
     place: Startup de jeux vidéo pour mobiles, États-Unis (à distance)
     time: 2020-actuel
     description:
-      Je suis chargé de l'architecture et l'entretien de
-      l'infrastructure en nuage AWS (Amazon) pour le backend d'un jeu
-      vidéo de rôle. Le backend comprend plusieurs services API en
-      Python et Prolog, en environnements local, testing, stage et
-      production. Je dois assurer que ces services soient fiables, et
-      aussi je m'occupe des "pipelines" pour la construction des
-      images immuables (Docker et AMIs) avec Packer et pour son
-      déploiement. Toute l'infrastructure est gérée comme code
-      Terraform/Terragrunt.
+      Architecture et entretien de l'infrastructure en nuage AWS
+      (Amazon) pour le backend d'un jeu vidéo de rôle. Le backend
+      comprend plusieurs services API en Python et Prolog, en
+      environnements local, testing, stage et production. Je dois
+      assurer que ces services soient fiables, et aussi je m'occupe
+      des "pipelines" pour la construction des images immuables
+      (Docker et AMIs avec Packer) et pour son déploiement. Toute
+      l'infrastructure est gérée comme code Terraform/Terragrunt.
 
-  - prof: Administrateur systèmes
-    place: Universidad Nacional del Litoral, Santa Fe, Argentina
+  - prof: Ingénieur DvOps / Administrateur systèmes
+    place: Universidad Nacional del Litoral (Rectorat), Santa Fe,
+           Argentina
     time: 2012-actuel
     description:
-      Part de l'équipe TI en charge des services web desservant
-      l'ensemble du campus avec 35k étudiants, le personnel et le
-      grand public. Administration d'un environnement virtuel avec 400
-      instances. J'ai mis en œuvre plusieurs services réseau tels que
-      des répertoires LDAP, service courriel et serveurs web front
-      end. J'ai mené la transition vers un modèle "infrastructure as
-      code", aujourd'hui, je conçois des "pipelines" en travaillant de
-      concert avec les équipes de développement.
+      Part de l'équipe d'infrastructure en charge des services
+      desservant l'ensemble du campus avec 35k étudiants, le personnel
+      et le grand public. Administration d'un environnement virtuel
+      avec 400 instances. J'ai mis en œuvre plusieurs services réseau
+      tels que des répertoires LDAP, service courriel et serveurs web
+      front end. J'ai mené la transition vers un modèle
+      "infrastructure as code", aujourd'hui, je conçois des
+      "pipelines" en travaillant de concert avec les équipes de
+      développement.
 
   - prof: Consultant DevOps
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
     time: 2019-2020
     description:
-      J'ai travaillé avec l'objectif d'achever un processus fiable
-      pour la livraison des logiciels. La solution conçue comprenait
+      J'avais l'objectif d'achever un processus fiable pour la
+      livraison des logiciels. La solution conçue comprenait
       l'utilisation des conteneurs pour achever d'uniformité entre les
       environnements. J'ai aussi travaillé dans la formation des
       équipes de développement dans le but de créer une culture en
