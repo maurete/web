@@ -22,7 +22,7 @@ content:
     freeform:
       Travail en concert avec des équipes de développement dans la
       création des pipelines pour la compilation, analyse et livraison
-      des logiciels. Déploiement des pipelines avec Gitlab, Drone,
+      des logiciels. Déploiement des pipelines avec CircleCI, GitLab, Drone,
       GitHub Actions, BitBucket et Jenkins. Soutien dans la transition
       vers des flux de travail git agiles. Mise en œuvre des outils
       des pipelines tels que plugins, images Docker, etc. Déploiement

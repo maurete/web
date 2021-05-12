@@ -22,7 +22,7 @@ content:
     freeform:
       Trabajo en conjunto con equipos de desarrollo en el diseño de
       pipelines para la compilación, testeo y entrega del
-      software. Implementación de pipelines con GitLab, Drone, GitHub
+      software. Implementación de pipelines con CircleCI, GitLab, Drone, GitHub
       Actions, BitBucket y Jenkins.  Buen comunicador, dando soporte a
       la transición hacia flujos de trabajo git más ágiles.
       Implementación de herramientas accesorias a las pipelines

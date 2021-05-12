@@ -21,7 +21,7 @@ content:
     freeform:
       Work within dev teams designing automation pipelines for the
       build, testing, and delivery stages. Pipeline implementation
-      with GitLab, Drone, GitHub Actions, BitBucket, and
+      with CircleCI, GitLab, Drone, GitHub Actions, BitBucket, and
       Jenkins. Skilled communicator, supporting the transition to more
       agile Git workflows. Implementation of auxiliary pipeline tools
       (plugins, Docker images, etc). Deploy to various cloud
