@@ -10,7 +10,7 @@ source:
       Elasticsearch, Aurora, S3, SSM, IAM, etc.) pour des applications
       Node.js Serverless. Toute l'infrastructure est gérée comme code
       Terraform et automatisée grâce a des pipelines CircleCI.
-      Containerisation des applications *legacy* dans Amazon ECS.
+      Containerisation des applications "legacy" dans Amazon ECS.
       Creation et optimisation des pipelines CircleCI pour les tests,
       compilation et déploiement des applications. Migration des
       pipelines BitBucket vers CircleCI.

@@ -10,7 +10,7 @@ source:
       Elasticsearch, Aurora, S3, SSM, IAM, etc.) para aplicaciones
       Serverless desarrolladas en Node.js. Toda la infraestructura
       escirta como código terraform y automatizada mediante pipelines
-      de CircleCI. Containerización de aplicaciones PHP *legacy* y
+      de CircleCI. Containerización de aplicaciones PHP "legacy" y
       despliegue en Amazon ECS. Creación y optimización de pipelines
       CircleCI para efectuar testing, builds y despliegues. Migración
       de pipelines de BitBucket a CircleCI.
