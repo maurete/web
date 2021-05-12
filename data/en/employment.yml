@@ -2,6 +2,18 @@
 name: Employment
 source:
 
+  - prof: DevOps Engineer
+    place: Optic Power, Puero Rico (remote)
+    time: 2021-present
+    description:
+      Set up and migration of AWS cloud infrastructure (VPC,
+      Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless
+      apps written in Node.js. All of the infrastructure written in
+      Terraform and automated via CircleCI pipelines.
+      Containerization of legacy PHP apps into Amazon ECS. Creation
+      and tuning of CircleCI pipelines for testing, building and
+      deploys. Migration of pipelines from BitBucket to CircleCI.
+
   - prof: AWS Cloud Infrastructure and DevOps/Release Automation
     place: Mobile game startup, USA (remote)
     time: 2020-present
@@ -18,7 +30,7 @@ source:
   - prof: DevOps Engineer / System Administrator
     place: Universidad Nacional del Litoral (Rectorate), Santa Fe,
            Argentina
-    time: 2012-present
+    time: 2012-2021
     description:
       Part of the core infrastructure team managing services for the
       whole campus serving 35k students, staff, and the general

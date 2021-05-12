@@ -2,6 +2,19 @@
 name: Experiencia laboral
 source:
 
+  - prof: Ingeniero DevOps
+    place: Optic Power, Puerto Rico (remoto)
+    time: 2021-actualidad
+    description:
+      Configuración y migración de infraestructura AWS (VPC,
+      Elasticsearch, Aurora, S3, SSM, IAM, etc.) para aplicaciones
+      Serverless desarrolladas en Node.js. Toda la infraestructura
+      escirta como código terraform y automatizada mediante pipelines
+      de CircleCI. Containerización de aplicaciones PHP *legacy* y
+      despliegue en Amazon ECS. Creación y optimización de pipelines
+      CircleCI para efectuar testing, builds y despliegues. Migración
+      de pipelines de BitBucket a CircleCI.
+
   - prof: Infrastructura en la nube AWS / DevOps y automatización
     place: Startup de videojuegos móviles, Estados Unidos (remoto)
     time: 2020-actualidad
@@ -19,7 +32,7 @@ source:
   - prof: Ingeniero DevOps / Administrador de sistemas
     place: Universidad Nacional del Litoral (Rectorado), Santa Fe,
            Argentina
-    time: 2012-actualidad
+    time: 2012-2021
     description:
       Parte del equipo de infraestructura. Administración de servicios
       para toda la universidad abarcando unos 35k alumnos, personal y
