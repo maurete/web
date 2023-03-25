@@ -7,19 +7,21 @@ source:
     time: 2021-present
     description: |
       Current project:
-
-      * Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure
-      * Fully automated infrastructure management using Terraform and GitHub Actions
-      * Access control with Teleport using SSO, via ephemeral instances automated with Terraform
-      * AWS, CloudFlare, FusionAuth, Sendgrid and Metabase
-      * Principal engineer in transition from single-account AWS to purpose-specific multi accounts
+      <ul>
+      <li> Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure
+      <li> Fully automated infrastructure management using Terraform and GitHub Actions
+      <li> Access control with Teleport using SSO, via ephemeral instances automated with Terraform
+      <li> AWS, CloudFlare, FusionAuth, Sendgrid and Metabase
+      <li> Principal engineer in transition from single-account AWS to purpose-specific multi accounts
+      </ul>
 
       Previously:
-      
-      * Set up and migration of AWS cloud infrastructure (VPC, Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless apps written in Node.js.
-      * Fully automated infrastructure management with Terraform and CircleCI pipelines.
-      * Containerization of legacy PHP apps into Amazon ECS.
-      * Built CircleCI pipelines for testing, building and deploys. Pipeline migration from BitBucket to CircleCI.
+      <ul>
+      <li> Set up and migration of AWS cloud infrastructure (VPC, Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless apps written in Node.js.
+      <li> Fully automated infrastructure management with Terraform and CircleCI pipelines.
+      <li> Containerization of legacy PHP apps into Amazon ECS.
+      <li> Built CircleCI pipelines for testing, building and deploys. Pipeline migration from BitBucket to CircleCI.
+      </ul>
 
   - prof: AWS Cloud Infrastructure and DevOps/Release Automation
     place: Mobile gaming startup, USA (remote)
