@@ -7,6 +7,7 @@ source:
     time: 2021-present
     description: |
       Current project:
+
       * Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure
       * Fully automated infrastructure management using Terraform and GitHub Actions
       * Access control with Teleport using SSO, via ephemeral instances automated with Terraform
@@ -14,6 +15,7 @@ source:
       * Principal engineer in transition from single-account AWS to purpose-specific multi accounts
 
       Previously:
+      
       * Set up and migration of AWS cloud infrastructure (VPC, Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless apps written in Node.js.
       * Fully automated infrastructure management with Terraform and CircleCI pipelines.
       * Containerization of legacy PHP apps into Amazon ECS.
