@@ -2,21 +2,26 @@
 name: Employment
 source:
 
-  - prof: DevOps Engineer
-    place: Optic Power, Puero Rico (remote)
+  - prof: Sr. DevOps Engineer
+    place: Code Power, Puero Rico (remote)
     time: 2021-present
-    description:
-      Set up and migration of AWS cloud infrastructure (VPC,
-      Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless
-      apps written in Node.js. All of the infrastructure written in
-      Terraform and automated via CircleCI pipelines.
-      Containerization of legacy PHP apps into Amazon ECS. Creation
-      and tuning of CircleCI pipelines for testing, building and
-      deploys. Migration of pipelines from BitBucket to CircleCI.
+    description: |
+      Current project:
+      * Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure
+      * Fully automated infrastructure management using Terraform and GitHub Actions
+      * Access control with Teleport using SSO, via ephemeral instances automated with Terraform
+      * AWS, CloudFlare, FusionAuth, Sendgrid and Metabase
+      * Principal engineer in transition from single-account AWS to purpose-specific multi accounts
+
+      Previously:
+      * Set up and migration of AWS cloud infrastructure (VPC, Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless apps written in Node.js.
+      * Fully automated infrastructure management with Terraform and CircleCI pipelines.
+      * Containerization of legacy PHP apps into Amazon ECS.
+      * Built CircleCI pipelines for testing, building and deploys. Pipeline migration from BitBucket to CircleCI.
 
   - prof: AWS Cloud Infrastructure and DevOps/Release Automation
-    place: Mobile game startup, USA (remote)
-    time: 2020-present
+    place: Mobile gaming startup, USA (remote)
+    time: 2020-2022
     description:
       AWS (Amazon) cloud infrastructure architect for the backend of a
       role-based game. The backend comprises API services written in
