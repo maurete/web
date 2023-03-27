@@ -1,32 +1,27 @@
 ---
 name: Skills and Languages
 content:
-  - title: System administration
+  - title: DevOps and Continuous Delivery
     freeform:
-      Experience in managing Linux-based network, server, and
-      workstation environments; setup and deployment of frontend and
-      web servers, Java application servers, database, mail, directory
-      servers. Proficient in Bash and Python scripting.
+      Design pipelines for building, testing, and delivery of software.
+      Experience with GitHub Actions, CircleCI, GitLab, Drone, and BitBucket.
+      Excellent communication skills. Support for the Dev team.
+      Auxilliary pipeline tools (plugins, Docker images, etc).
+      Experience managing cloud infrastructure in AWS cloud and other vendors.
 
-  - title: Site reliability engineering
+  - title: Site Reliability Engineering
     freeform:
-      Creating and managing infrastructure as code with
-      Terraform/Terragrunt, Ansible, and Vagrant; building immutable
-      images with Docker and Packer; log collecting and aggregation
-      with Graylog; metrics collection and reporting with InfluxDB,
-      Prometheus, Grafana and Zabbix.
+      Fully automated management of Infrastructure using Terraform code and CI workflow.
+      Very good knowledge of IaC/CaC tools like Terraform, Terragrunt, Ansible.
+      Container/instance images with Docker and Packer.
+      Experience with observability tools like AWS CloudWatch, Datadog, Graylog, InfluxDB, Grafana, Zabbix.
       # container orchestration with Kubernetes and Docker Swarm;
 
-  - title: DevOps and continuous delivery
+  - title: System Administration
     freeform:
-      Work within dev teams designing automation pipelines for the
-      build, testing, and delivery stages. Pipeline implementation
-      with CircleCI, GitLab, Drone, GitHub Actions, BitBucket, and
-      Jenkins. Skilled communicator, supporting the transition to more
-      agile Git workflows. Implementation of auxiliary pipeline tools
-      (plugins, Docker images, etc). Deploy to various cloud
-      infrastructure including Amazon, Linode, DigitalOcean, and
-      Hetzner.
+      Experience in admministration of physical and virtual Linux-based servers, and local networks including switch and firewall management.
+      Experience managing of load lalancers, web, application servers, database, mail, and directory servers.
+      Proficient in Bash and Python scripting.
 
   # - title: Technologies
   #   ranked:

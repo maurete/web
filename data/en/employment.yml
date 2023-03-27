@@ -7,16 +7,14 @@ source:
     time: 2021-present
     description: |
       Current project:
-
-      * Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure
-      * Fully automated infrastructure management using Terraform and GitHub Actions
-      * Access control with Teleport using SSO, via ephemeral instances automated with Terraform
-      * AWS, CloudFlare, FusionAuth, Sendgrid and Metabase
-      * Principal engineer in transition from single-account AWS to purpose-specific multi accounts
+      * Principal engineer in SOC 2 type II implementation for securing the AWS infrastructure.
+      * Fully automated infrastructure management using Terraform and GitHub Actions.
+      * Access control with Teleport using SSO, via ephemeral instances automated with Terraform.
+      * In charge of managing AWS, CloudFlare, FusionAuth, Sendgrid and Metabase infrastructure.
+      * Principal engineer in transition from single-account AWS to purpose-specific multi-account organization.
 
       Previously:
-
-      * Set up and migration of AWS cloud infrastructure (VPC, Elasticsearch, Aurora, S3, SSM, IAM, etc.) to support Serverless apps written in Node.js.
+      * Managed AWS cloud infrastructure to support Serverless apps written in Node.js.
       * Fully automated infrastructure management with Terraform and CircleCI pipelines.
       * Containerization of legacy PHP apps into Amazon ECS.
       * Built CircleCI pipelines for testing, building and deploys. Pipeline migration from BitBucket to CircleCI.
@@ -26,26 +24,22 @@ source:
     time: 2020-2022
     description:
       AWS (Amazon) cloud infrastructure architect for the backend of a
-      role-based game. The backend comprises API services written in
-      Python and Prolog, in local, test, staging and production
-      environments. My mission is to ensure the reliability of the
-      backend and its infrastructure. I also build pipelines for
-      creating immutable images (Docker, AMIs with Packer) and for
-      performing deploys. All of the infrastructure is written and
-      managed as Terragrunt/Terraform code.
+      role-based mobile game. The backend comprises API services written in
+      Python and Prolog. My mission was to ensure the reliability and scalability of the
+      backend infrastructure. I also built pipelines for creating Docker images and deploying them.
+      All of the infrastructure was written and managed as Terragrunt/Terraform code.
 
   - prof: DevOps Engineer / System Administrator
-    place: Universidad Nacional del Litoral (Rectorate), Santa Fe,
-           Argentina
+    place: Universidad Nacional del Litoral (Rectorate), Santa Fe, Argentina
     time: 2012-2021
     description:
       Part of the core infrastructure team managing services for the
       whole campus serving 35k students, staff, and the general
       public. Administration of a virtual environment with ~400
-      instances on-premises. Set up many network services from LDAP
-      directory, mail server to the web frontends. Lead the transition
-      to writing configuration as code. Currently implementing
-      delivery pipelines working together with dev teams.
+      virtul instances on-premises. Set up many network services from LDAP
+      directory, mail server to the web frontends. Principal engineer in transition
+      to writing configuration as code. Lead the transition to an agile Git development workflow for Dev teams
+      including feature branches and CI/CD pipelines using GitLab.
 
   - prof: DevOps Consultant
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
