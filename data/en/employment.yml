@@ -19,7 +19,7 @@ source:
       * Containerization of legacy PHP apps into Amazon ECS.
       * Built CircleCI pipelines for testing, building and deploys. Pipeline migration from BitBucket to CircleCI.
 
-  - prof: AWS Cloud Infrastructure and DevOps/Release Automation
+  - prof: AWS Cloud Infrastructure and Release Automation Engineer
     place: Mobile gaming startup, USA (remote)
     time: 2020-2022
     description:
@@ -41,7 +41,7 @@ source:
       to writing configuration as code. Lead the transition to an agile Git development workflow for Dev teams
       including feature branches and CI/CD pipelines using GitLab.
 
-  - prof: DevOps Consultant
+  - prof: DevOps Engineer
     place: 4r Soluciones S.R.L., Santa Fe, Argentina
     time: 2019-2020
     description:
